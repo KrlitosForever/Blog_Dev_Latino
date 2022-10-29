@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog del desarrollador latinoamericano - hello</title><link href="https://KrlitosForever.github.io/" rel="alternate"></link><link href="https://KrlitosForever.github.io/feeds/hello.atom.xml" rel="self"></link><id>https://KrlitosForever.github.io/</id><updated>2022-09-25T19:24:00-03:00</updated><entry><title>Biografía del Autor</title><link href="https://KrlitosForever.github.io/biografia-del-autor.html" rel="alternate"></link><published>2022-09-25T19:24:00-03:00</published><updated>2022-09-25T19:24:00-03:00</updated><author><name>Carlos Carrasco Varas</name></author><id>tag:krlitosforever.github.io,2022-09-25:/biografia-del-autor.html</id><summary type="html">&lt;p&gt;Biografía de Carlos Carrasco&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Biografía del Autor!&lt;/h1&gt;
+&lt;p&gt;Bienvenidos a mi blog mi nombre es &lt;strong&gt;Carlos Carrasco Varas&lt;/strong&gt;, soy Ingeniero Civil en Computación e informática y además tengo un Magíster en Informática y Ciencias de la Computación.&lt;/p&gt;
+&lt;p&gt;Actualmente tengo 34 años y desde siempre me ha apasionado lo que es la computación. Todo lo referente al software y hardware. Uno de mis lenguajes favoritos de programación es Python y actualmente pertenezco a la coordinación de &lt;a href="https://pythonchile.cl/"&gt;Python Chile&lt;/a&gt;. &lt;/p&gt;
+&lt;h2&gt;Pasión&lt;/h2&gt;
+&lt;p&gt;Soy fanático de &lt;a href="https://www.raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt;, creo que desde el día que tuve una en mis manos mi vida cambio. Me encanto el hecho de ver como cobraba vida el hardware a través del software. Con el típico hola mundo del hardware que sería prender y apagar un led infinitamente.&lt;/p&gt;
+&lt;p&gt;Desde ese día empece a ver cómo funcionaba &lt;a href="https://www.arduino.cc/"&gt;arduino&lt;/a&gt; la cantidad de sensores que tenia y la facilidad con que se pueden enlazar. Hoy en día me gusta mucho experimentar con el módulo &lt;a href="https://es.wikipedia.org/wiki/ESP32"&gt;ESP32&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Actualidad&lt;/h2&gt;
+&lt;p&gt;En este momento de mi vida quisiera aportar con mi conocimiento y entregar tutoriales que estén actualizados ya que muchos se encuentran desactualizados y no siempre tenemos la suerte de contar con dicha información en español. Es por esa razón que he decidido iniciar este blog del desarrollador latinoamericano, mostrando como a mi me funciono. &lt;/p&gt;
+&lt;h2&gt;Comunidad&lt;/h2&gt;
+&lt;p&gt;Quisiera indicar que mis redes sociales el día de hoy se encuentran abiertas y si quieren contactarse conmigo no duden en hacerlo.&lt;/p&gt;
+&lt;p&gt;Espero que la gran mayoría de mis proyectos se encuentren en mi &lt;a href="https://github.com/KrlitosForever"&gt;github&lt;/a&gt; y si Ud. quieren mejorar el proyecto no duden en realizarlo.&lt;/p&gt;
+&lt;h2&gt;Palabras finales&lt;/h2&gt;
+&lt;p&gt;Agradecer a todos aquellas personas que llegaron a mi blog con el objetivo de aprender o replicar un proyecto. Infinitas gracias.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Nota&lt;/strong&gt; es más te pediría que me enviaras un &lt;a href="https://twitter.com/Krlitos_Forever"&gt;tuit&lt;/a&gt; diciendo &lt;em&gt;Hey Carlos! estoy en tu github pages!&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><category term="hello"></category><category term="hello"></category></entry></feed>

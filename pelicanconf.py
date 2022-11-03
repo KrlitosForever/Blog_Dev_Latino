@@ -22,8 +22,9 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Twitter', 'https://twitter.com/Krlitos_Forever'),
+          ('LinkedIn', 'https://www.linkedin.com/in/mg-carlos-carrasco/'),
+          ('GitHub','https://github.com/KrlitosForever'),)
 
 DEFAULT_PAGINATION = 10
 
@@ -31,4 +32,4 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 OUTPUT_PATH = 'docs/'
-THEME = 'attila'
+THEME = 'gum'

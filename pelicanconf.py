@@ -15,7 +15,7 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-DATE_FORMATS = { "es": "%Y-%m-%d"}
+DATE_FORMATS = { "es": "%d-%m-%Y"}
 
 # Blogroll
 LINKS = (('Pelican', 'https://getpelican.com/'),

@@ -29,7 +29,7 @@ SOCIAL = (('Twitter', 'https://twitter.com/Krlitos_Forever'),
           ('GitHub','https://github.com/KrlitosForever'),)
 
 # Tags
-TAGS = ['hello']
+TAGS = ('hello')
 
 DEFAULT_PAGINATION = 10
 

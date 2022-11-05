@@ -16,7 +16,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-PAGES = (('Pelican', 'https://getpelican.com/'),
+LINKS = (('Pelican', 'https://getpelican.com/'),
          ('Python.org', 'https://www.python.org/'),
          ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
          ('You can modify those links in your config file', '#'),)
@@ -25,6 +25,9 @@ PAGES = (('Pelican', 'https://getpelican.com/'),
 SOCIAL = (('Twitter', 'https://twitter.com/Krlitos_Forever'),
           ('LinkedIn', 'https://www.linkedin.com/in/mg-carlos-carrasco/'),
           ('GitHub','https://github.com/KrlitosForever'),)
+
+# Tags
+TAGS = ['hello']
 
 DEFAULT_PAGINATION = 10
 

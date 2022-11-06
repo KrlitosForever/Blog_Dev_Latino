@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+        <title>¿Cómo personalizar la terminal con oh my bash?</title>
+        <meta charset="utf-8" />
+        <link href="https://KrlitosForever.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Blog del desarrollador latinoamericano Full Atom Feed" />
+        <link href="https://KrlitosForever.github.io/feeds/linux.atom.xml" type="application/atom+xml" rel="alternate" title="Blog del desarrollador latinoamericano Categories Atom Feed" />
+
+
+        <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+        <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
+
+        <link rel="stylesheet" type="text/css" href="./theme/gumby.css" />
+        <link rel="stylesheet" type="text/css" href="./theme/style.css" />
+        <link rel="stylesheet" type="text/css" href="./theme/pygment.css" />
+
+        <script src="./theme/js/libs/modernizr-2.6.2.min.js"></script>
+
+
+
+
+</head>
+
+<body id="index" class="home">
+
+
+    <div class="container">
+
+        <div class="row">
+
+          <header id="banner" class="body">
+                  <h1><a href="./">Blog del desarrollador latinoamericano <strong></strong></a></h1>
+          </header><!-- /#banner -->
+
+            <div id="navigation" class="navbar row">
+              <a href="#" gumby-trigger="#navigation &gt; ul" class="toggle"><i class="icon-menu"></i></a>
+             
+              <ul class="columns">
+                <li><a href="./">Home</a></li>
+
+                <li><a href="./pages/acerca-de-la-pagina.html">Acerca de la página</a></li>
+
+              </ul>
+            </div>
+
+<section id="content" class="body">
+
+   <div class="row">
+        <div class="eleven columns">
+
+
+            <header>
+              <h2 class="entry-title">
+                <a href="./como-personalizar-la-terminal-con-oh-my-bash.html" rel="bookmark"
+                   title="Permalink to ¿Cómo personalizar la terminal con oh my bash?">¿Cómo personalizar la terminal con oh my bash?</a></h2>
+           
+            </header>
+            <footer class="post-info">
+              <abbr class="published" title="2022-11-06T15:53:00-03:00">
+                06-11-2022
+              </abbr>
+              <address class="vcard author">Por 
+                <a class="url fn" href="./author/carlos-carrasco-varas.html"> Carlos Carrasco Varas</a>
+              </address>
+            </footer><!-- /.post-info -->
+            <div class="entry-content">
+              <h1>¿Cómo personalizar la terminal con oh my bash?</h1>
+<h2>Pasos previos</h2>
+<p>Lo primero que debemos hacer es comprobar si es que tenemos instalado <a href="https://git-scm.com/">git</a> y si tenemos instalado <a href="https://curl.se/">curl</a>. Esto lo comprobaremos en nuestra terminal de la siguiente manera:</p>
+<div class="highlight"><pre><span></span><code>$ git --version
+git version <span class="m">2</span>.30.2
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code>$ curl --version
+curl <span class="m">7</span>.74.0 <span class="o">(</span>x86_64-pc-linux-gnu<span class="o">)</span> libcurl/7.74.0 OpenSSL/1.1.1n zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.0 <span class="o">(</span>+libidn2/2.3.0<span class="o">)</span> libssh2/1.9.0 nghttp2/1.43.0 librtmp/2.3
+Release-Date: <span class="m">2020</span>-12-09
+Protocols: dict file ftp ftps gopher http https imap imaps ldap ldaps mqtt pop3 pop3s rtmp rtsp scp sftp smb smbs smtp smtps telnet tftp 
+Features: alt-svc AsynchDNS brotli GSS-API HTTP2 HTTPS-proxy IDN IPv6 Kerberos Largefile libz NTLM NTLM_WB PSL SPNEGO SSL TLS-SRP UnixSockets
+</code></pre></div>
+
+<p>Si no tuviésemos instalado alguno de ellos debemos instalarlos con el siguiente comando:</p>
+<p>Para instalar git:</p>
+<div class="highlight"><pre><span></span><code>$ apt-get install git
+</code></pre></div>
+
+<p>Para instalar curl:</p>
+<div class="highlight"><pre><span></span><code>$ apt-get install curl
+</code></pre></div>
+
+<h2>Identificando nustro archivo .bashrc</h2>
+<p>Este archivo es el que contiene las configuraciones de nuestra terminal. Es por esa razón que es fundamental encontrarlo ya que próximamente haremos modificaciones sobre éste.
+En general el archivo <em>.bashrc</em> lo encontraremos en <code>\home\usuario</code> si hacemos un <code>$ ls -al</code> nos debería aparecer este archivo <em>.bashrc</em></p>
+<h2>Instalando oh my bash</h2>
+<p>Para instalar <a href="https://github.com/ohmybash/oh-my-bash">oh my bash</a> debemos dirigirnos al siguiente enlace https://github.com/ohmybash/oh-my-bash en se encontraran dos formas de instalarlo. Para el caso de este tutorial optaremos por la vía de curl y para ello deberemos ejecutar la siguiente línea en la terminal:</p>
+<div class="highlight"><pre><span></span><code><span class="n">bash</span><span class="w"> </span><span class="o">-</span><span class="n">c</span><span class="w"> </span><span class="s2">&quot;$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)&quot;</span><span class="w"></span>
+</code></pre></div>
+
+<p>Una vez instalado ya deberían producirse cambios en nuestra terminal.</p>
+<h2>Instalando tema agnoster</h2>
+<p>Uno de mis temas favoritos es el de <a href="https://github.com/ohmybash/oh-my-bash/tree/master/themes/agnoster">agnoster</a> el cual tiene una configuración adicional para que este tema funcione. para ellos nos vamos al repositorio y encontraremos las siguientes instrucciones:</p>
+<p>~~~
+$ git clone https://github.com/powerline/fonts.git fonts
+$ cd fonts
+$ ./install.sh
+ ~~~</p>
+<h2>Configurando .bashrc</h2>
+<p>Una vez hayamos instalado <a href="https://github.com/ohmybash/oh-my-bash">oh my bash</a> y hagamos instalado el tema de <a href="https://github.com/ohmybash/oh-my-bash/tree/master/themes/agnoster">agnoster</a> para que surjan los cambios debemos modificar nuestro archivo <em>.bashrc</em> y editar la línea y dejarla de la siguiente forma <code>OSH_THME = "agnoster"</code>. Se guardan los cambios y en la terminal escribimos lo siguiente:</p>
+<div class="highlight"><pre><span></span><code>source .bashrc
+</code></pre></div>
+
+<p>y se nos debería ver de la siguiente manera:
+<img alt="Terminal con tema agnoster" src="/content/images/terminal_Agnoster.png"></p>
+<blockquote>
+<p><strong><em>nota</em></strong>: Si por alguna razón no se te ve de igual manera es probable que debas ajustar la fuente de tu terminal. En mi caso para que se pueda ver así utilice <em>Liberation mono</em> como se ve en la imagen. <img alt="Fuente de terminal" src="/content/images/fuente_terminal.png"></p>
+</blockquote>
+<h2>Fuentes</h2>
+<p>Toda la información que puedes ver acá esta contenida en el siguiente video:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qi5Vzw5AU9M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2>Cierre y palabras finales</h2>
+<p>A mi parecer instalar <a href="https://github.com/ohmybash/oh-my-bash">oh my bash</a> ha aumentado mi productividad ya que puedo obtener bastante información desde la terminal. Puedo ver con claridad en que rama estoy trabajando si es que estoy en un entorno virtual además de la ruta. Además de que se ve genial! Espero que te haya sido útil este tutorial y no te olvides de enviarme un <a href="https://twitter.com/Krlitos_Forever">tuit</a> diciendo <em>Hey Carlos! estoy en tu github pages!</em> Eso me haría muy feliz.</p>
+            </div><!-- /.entry-content -->
+
+
+        </div><!-- /.eleven.columns -->
+
+<div class="three columns">
+
+  <h4>Pages</h4>
+
+  <ul>
+
+    <li ><a href="./pages/acerca-de-la-pagina.html">Acerca de la página</a></li>
+  
+  <h4>Categories</h4>
+  <ul class="blank">
+    <li><a href="./category/hello.html">hello</a></li>
+    <li><a href="./category/linux.html">Linux</a></li>
+  </ul>
+
+
+
+
+<nav class="widget">
+  <h4>Social</h4>
+  <ul class="blank">
+    <li><a href="https://twitter.com/Krlitos_Forever">Twitter</a></li>
+    <li><a href="https://www.linkedin.com/in/mg-carlos-carrasco/">LinkedIn</a></li>
+    <li><a href="https://github.com/KrlitosForever">GitHub</a></li>
+  </ul>
+</nav>
+
+</div> </div><!-- /.row -->
+
+
+</section>
+
+       </div><!-- /.row -->
+    </div><!-- /.container -->
+
+
+       <div class="container.nopad bg">
+
+    
+        <footer id="credits" class="row">
+          <div class="seven columns left-center">
+
+                   <address id="about" class="vcard body">
+                    Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+                    which takes great advantage of <a href="http://python.org">Python</a>.
+                    <br />
+                    Based on the <a target="_blank" href="http://gumbyframework.com">Gumby Framework</a>
+                    </address>
+          </div>
+
+
+          <div class="seven columns">
+            <div class="row">
+              <ul class="socbtns">
+
+
+
+
+
+              </ul>
+            </div>
+          </div>
+        </footer>
+
+    </div>
+
+
+  <script src="./theme/js/libs/jquery-1.9.1.min.js"></script>
+  <script src="./theme/js/libs/gumby.min.js"></script>
+  <script src="./theme/js/plugins.js"></script>
+</body>
+</html>

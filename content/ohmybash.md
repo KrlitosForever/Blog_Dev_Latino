@@ -79,3 +79,8 @@ Toda la información que puedes ver acá esta contenida en el siguiente video:
 
 ## Palabras finales
 A mi parecer instalar [oh my bash](https://github.com/ohmybash/oh-my-bash) ha aumentado mi productividad ya que puedo obtener bastante información desde la terminal. Puedo ver con claridad en que rama estoy trabajando si es que estoy en un entorno virtual además de la ruta. Además de que se ve genial! Espero que te haya sido útil este tutorial y no te olvides de enviarme un [tuit](https://twitter.com/Krlitos_Forever) diciendo *Hey Carlos! estoy en tu github pages!* Eso me haría muy feliz.
+
+
+## como mierda hago los cambios
+
+no tengo pico idea de como se acen los cambios

@@ -11,12 +11,12 @@ Summary: En este tutorial aprenderemos a como personalizar la terminal y obtener
 
 Lo primero que debemos hacer es comprobar si es que tenemos instalado [git](https://git-scm.com/) y si tenemos instalado [curl](https://curl.se/). Esto lo comprobaremos en nuestra terminal de la siguiente manera:
 
-~~~bash
+~~~text
 $ git --version
 git version 2.30.2
 ~~~
 
-~~~bash
+~~~text
 $ curl --version
 curl 7.74.0 (x86_64-pc-linux-gnu) libcurl/7.74.0 OpenSSL/1.1.1n zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.0 (+libidn2/2.3.0) libssh2/1.9.0 nghttp2/1.43.0 librtmp/2.3
 Release-Date: 2020-12-09
@@ -43,7 +43,8 @@ En general el archivo *.bashrc* lo encontraremos en `\home\usuario` si hacemos u
 ## Instalando oh my bash
 
 Para instalar [oh my bash](https://github.com/ohmybash/oh-my-bash) debemos dirigirnos al siguiente enlace https://github.com/ohmybash/oh-my-bash en se encontraran dos formas de instalarlo. Para el caso de este tutorial optaremos por la vía de curl y para ello deberemos ejecutar la siguiente línea en la terminal:
-~~~
+
+~~~text
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
 ~~~
 
@@ -69,12 +70,12 @@ source .bashrc
 y se nos debería ver de la siguiente manera:
 ![Terminal con tema agnoster](./images/terminal_Agnoster.png)
 
-> ***nota***: Si por alguna razón no se te ve de igual manera es probable que debas ajustar la fuente de tu terminal. En mi caso para que se pueda ver así utilice *Liberation mono* como se ve en la imagen. ![Fuente de terminal](/content/images/fuente_terminal.png)
+> ***nota***: Si por alguna razón no se te ve de igual manera es probable que debas ajustar la fuente de tu terminal. En mi caso para que se pueda ver así utilice *Liberation mono* como se ve en la imagen. ![Fuente de terminal](./images/fuente_terminal.png)
 
 ## Fuentes
 Toda la información que puedes ver acá esta contenida en el siguiente video:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qi5Vzw5AU9M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Cierre y palabras finales
+## Palabras finales
 A mi parecer instalar [oh my bash](https://github.com/ohmybash/oh-my-bash) ha aumentado mi productividad ya que puedo obtener bastante información desde la terminal. Puedo ver con claridad en que rama estoy trabajando si es que estoy en un entorno virtual además de la ruta. Además de que se ve genial! Espero que te haya sido útil este tutorial y no te olvides de enviarme un [tuit](https://twitter.com/Krlitos_Forever) diciendo *Hey Carlos! estoy en tu github pages!* Eso me haría muy feliz.

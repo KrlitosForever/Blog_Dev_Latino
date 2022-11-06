@@ -3,12 +3,12 @@
 &lt;h2&gt;Pasos previos&lt;/h2&gt;
 &lt;p&gt;Lo primero que debemos hacer es comprobar si es que tenemos instalado &lt;a href="https://git-scm.com/"&gt;git&lt;/a&gt; y si tenemos instalado &lt;a href="https://curl.se/"&gt;curl&lt;/a&gt;. Esto lo comprobaremos en nuestra terminal de la siguiente manera:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ git --version
-git version &lt;span class="m"&gt;2&lt;/span&gt;.30.2
+git version 2.30.2
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ curl --version
-curl &lt;span class="m"&gt;7&lt;/span&gt;.74.0 &lt;span class="o"&gt;(&lt;/span&gt;x86_64-pc-linux-gnu&lt;span class="o"&gt;)&lt;/span&gt; libcurl/7.74.0 OpenSSL/1.1.1n zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.0 &lt;span class="o"&gt;(&lt;/span&gt;+libidn2/2.3.0&lt;span class="o"&gt;)&lt;/span&gt; libssh2/1.9.0 nghttp2/1.43.0 librtmp/2.3
-Release-Date: &lt;span class="m"&gt;2020&lt;/span&gt;-12-09
+curl 7.74.0 (x86_64-pc-linux-gnu) libcurl/7.74.0 OpenSSL/1.1.1n zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.0 (+libidn2/2.3.0) libssh2/1.9.0 nghttp2/1.43.0 librtmp/2.3
+Release-Date: 2020-12-09
 Protocols: dict file ftp ftps gopher http https imap imaps ldap ldaps mqtt pop3 pop3s rtmp rtsp scp sftp smb smbs smtp smtps telnet tftp 
 Features: alt-svc AsynchDNS brotli GSS-API HTTP2 HTTPS-proxy IDN IPv6 Kerberos Largefile libz NTLM NTLM_WB PSL SPNEGO SSL TLS-SRP UnixSockets
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -27,7 +27,7 @@ Features: alt-svc AsynchDNS brotli GSS-API HTTP2 HTTPS-proxy IDN IPv6 Kerberos L
 En general el archivo &lt;em&gt;.bashrc&lt;/em&gt; lo encontraremos en &lt;code&gt;\home\usuario&lt;/code&gt; si hacemos un &lt;code&gt;$ ls -al&lt;/code&gt; nos debería aparecer este archivo &lt;em&gt;.bashrc&lt;/em&gt;&lt;/p&gt;
 &lt;h2&gt;Instalando oh my bash&lt;/h2&gt;
 &lt;p&gt;Para instalar &lt;a href="https://github.com/ohmybash/oh-my-bash"&gt;oh my bash&lt;/a&gt; debemos dirigirnos al siguiente enlace https://github.com/ohmybash/oh-my-bash en se encontraran dos formas de instalarlo. Para el caso de este tutorial optaremos por la vía de curl y para ello deberemos ejecutar la siguiente línea en la terminal:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;bash&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)&amp;quot;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;bash -c &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Una vez instalado ya deberían producirse cambios en nuestra terminal.&lt;/p&gt;
@@ -46,11 +46,11 @@ $ ./install.sh
 &lt;p&gt;y se nos debería ver de la siguiente manera:
 &lt;img alt="Terminal con tema agnoster" src="./images/terminal_Agnoster.png"&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;nota&lt;/em&gt;&lt;/strong&gt;: Si por alguna razón no se te ve de igual manera es probable que debas ajustar la fuente de tu terminal. En mi caso para que se pueda ver así utilice &lt;em&gt;Liberation mono&lt;/em&gt; como se ve en la imagen. &lt;img alt="Fuente de terminal" src="/content/images/fuente_terminal.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;nota&lt;/em&gt;&lt;/strong&gt;: Si por alguna razón no se te ve de igual manera es probable que debas ajustar la fuente de tu terminal. En mi caso para que se pueda ver así utilice &lt;em&gt;Liberation mono&lt;/em&gt; como se ve en la imagen. &lt;img alt="Fuente de terminal" src="./images/fuente_terminal.png"&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;Fuentes&lt;/h2&gt;
 &lt;p&gt;Toda la información que puedes ver acá esta contenida en el siguiente video:&lt;/p&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/qi5Vzw5AU9M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;h2&gt;Cierre y palabras finales&lt;/h2&gt;
+&lt;h2&gt;Palabras finales&lt;/h2&gt;
 &lt;p&gt;A mi parecer instalar &lt;a href="https://github.com/ohmybash/oh-my-bash"&gt;oh my bash&lt;/a&gt; ha aumentado mi productividad ya que puedo obtener bastante información desde la terminal. Puedo ver con claridad en que rama estoy trabajando si es que estoy en un entorno virtual además de la ruta. Además de que se ve genial! Espero que te haya sido útil este tutorial y no te olvides de enviarme un &lt;a href="https://twitter.com/Krlitos_Forever"&gt;tuit&lt;/a&gt; diciendo &lt;em&gt;Hey Carlos! estoy en tu github pages!&lt;/em&gt; Eso me haría muy feliz.&lt;/p&gt;</content><category term="Linux"></category><category term="linux bash terminal"></category></entry></feed>

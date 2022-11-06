@@ -67,7 +67,7 @@ source .bashrc
 ~~~
 
 y se nos debería ver de la siguiente manera:
-![Terminal con tema agnoster](/images/terminal_Agnoster.png)
+![Terminal con tema agnoster](./images/terminal_Agnoster.png)
 
 > ***nota***: Si por alguna razón no se te ve de igual manera es probable que debas ajustar la fuente de tu terminal. En mi caso para que se pueda ver así utilice *Liberation mono* como se ve en la imagen. ![Fuente de terminal](/content/images/fuente_terminal.png)
 

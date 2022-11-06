@@ -44,7 +44,7 @@ $ ./install.sh
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;y se nos debería ver de la siguiente manera:
-&lt;img alt="Terminal con tema agnoster" src="/images/terminal_Agnoster.png"&gt;&lt;/p&gt;
+&lt;img alt="Terminal con tema agnoster" src="./images/terminal_Agnoster.png"&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;nota&lt;/em&gt;&lt;/strong&gt;: Si por alguna razón no se te ve de igual manera es probable que debas ajustar la fuente de tu terminal. En mi caso para que se pueda ver así utilice &lt;em&gt;Liberation mono&lt;/em&gt; como se ve en la imagen. &lt;img alt="Fuente de terminal" src="/content/images/fuente_terminal.png"&gt;&lt;/p&gt;
 &lt;/blockquote&gt;

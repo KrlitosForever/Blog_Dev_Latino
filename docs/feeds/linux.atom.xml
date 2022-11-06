@@ -33,18 +33,18 @@ En general el archivo &lt;em&gt;.bashrc&lt;/em&gt; lo encontraremos en &lt;code&
 &lt;p&gt;Una vez instalado ya deberían producirse cambios en nuestra terminal.&lt;/p&gt;
 &lt;h2&gt;Instalando tema agnoster&lt;/h2&gt;
 &lt;p&gt;Uno de mis temas favoritos es el de &lt;a href="https://github.com/ohmybash/oh-my-bash/tree/master/themes/agnoster"&gt;agnoster&lt;/a&gt; el cual tiene una configuración adicional para que este tema funcione. para ellos nos vamos al repositorio y encontraremos las siguientes instrucciones:&lt;/p&gt;
-&lt;p&gt;~~~
-$ git clone https://github.com/powerline/fonts.git fonts
-$ cd fonts
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ git clone https://github.com/powerline/fonts.git fonts
+$ &lt;span class="nb"&gt;cd&lt;/span&gt; fonts
 $ ./install.sh
- ~~~&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 &lt;h2&gt;Configurando .bashrc&lt;/h2&gt;
 &lt;p&gt;Una vez hayamos instalado &lt;a href="https://github.com/ohmybash/oh-my-bash"&gt;oh my bash&lt;/a&gt; y hagamos instalado el tema de &lt;a href="https://github.com/ohmybash/oh-my-bash/tree/master/themes/agnoster"&gt;agnoster&lt;/a&gt; para que surjan los cambios debemos modificar nuestro archivo &lt;em&gt;.bashrc&lt;/em&gt; y editar la línea y dejarla de la siguiente forma &lt;code&gt;OSH_THME = "agnoster"&lt;/code&gt;. Se guardan los cambios y en la terminal escribimos lo siguiente:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;source .bashrc
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;y se nos debería ver de la siguiente manera:
-&lt;img alt="Terminal con tema agnoster" src="/content/images/terminal_Agnoster.png"&gt;&lt;/p&gt;
+&lt;img alt="Terminal con tema agnoster" src="/images/terminal_Agnoster.png"&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;nota&lt;/em&gt;&lt;/strong&gt;: Si por alguna razón no se te ve de igual manera es probable que debas ajustar la fuente de tu terminal. En mi caso para que se pueda ver así utilice &lt;em&gt;Liberation mono&lt;/em&gt; como se ve en la imagen. &lt;img alt="Fuente de terminal" src="/content/images/fuente_terminal.png"&gt;&lt;/p&gt;
 &lt;/blockquote&gt;

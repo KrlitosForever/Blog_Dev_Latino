@@ -52,11 +52,11 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/mast
 ## Instalando tema agnoster
  Uno de mis temas favoritos es el de [agnoster](https://github.com/ohmybash/oh-my-bash/tree/master/themes/agnoster) el cual tiene una configuración adicional para que este tema funcione. para ellos nos vamos al repositorio y encontraremos las siguientes instrucciones:
 
- ~~~
+~~~
 $ git clone https://github.com/powerline/fonts.git fonts
 $ cd fonts
 $ ./install.sh
- ~~~
+~~~
 
 ## Configurando .bashrc
 
@@ -67,7 +67,7 @@ source .bashrc
 ~~~
 
 y se nos debería ver de la siguiente manera:
-![Terminal con tema agnoster](/content/images/terminal_Agnoster.png)
+![Terminal con tema agnoster](/images/terminal_Agnoster.png)
 
 > ***nota***: Si por alguna razón no se te ve de igual manera es probable que debas ajustar la fuente de tu terminal. En mi caso para que se pueda ver así utilice *Liberation mono* como se ve en la imagen. ![Fuente de terminal](/content/images/fuente_terminal.png)
 

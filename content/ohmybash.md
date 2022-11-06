@@ -84,3 +84,4 @@ A mi parecer instalar [oh my bash](https://github.com/ohmybash/oh-my-bash) ha au
 ## como mierda hago los cambios
 
 no tengo pico idea de como se acen los cambios
+pero acá estoy webiando

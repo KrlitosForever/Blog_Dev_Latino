@@ -69,12 +69,12 @@
 <h2>Pasos previos</h2>
 <p>Lo primero que debemos hacer es comprobar si es que tenemos instalado <a href="https://git-scm.com/">git</a> y si tenemos instalado <a href="https://curl.se/">curl</a>. Esto lo comprobaremos en nuestra terminal de la siguiente manera:</p>
 <div class="highlight"><pre><span></span><code>$ git --version
-git version <span class="m">2</span>.30.2
+git version 2.30.2
 </code></pre></div>
 
 <div class="highlight"><pre><span></span><code>$ curl --version
-curl <span class="m">7</span>.74.0 <span class="o">(</span>x86_64-pc-linux-gnu<span class="o">)</span> libcurl/7.74.0 OpenSSL/1.1.1n zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.0 <span class="o">(</span>+libidn2/2.3.0<span class="o">)</span> libssh2/1.9.0 nghttp2/1.43.0 librtmp/2.3
-Release-Date: <span class="m">2020</span>-12-09
+curl 7.74.0 (x86_64-pc-linux-gnu) libcurl/7.74.0 OpenSSL/1.1.1n zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.0 (+libidn2/2.3.0) libssh2/1.9.0 nghttp2/1.43.0 librtmp/2.3
+Release-Date: 2020-12-09
 Protocols: dict file ftp ftps gopher http https imap imaps ldap ldaps mqtt pop3 pop3s rtmp rtsp scp sftp smb smbs smtp smtps telnet tftp 
 Features: alt-svc AsynchDNS brotli GSS-API HTTP2 HTTPS-proxy IDN IPv6 Kerberos Largefile libz NTLM NTLM_WB PSL SPNEGO SSL TLS-SRP UnixSockets
 </code></pre></div>
@@ -93,7 +93,7 @@ Features: alt-svc AsynchDNS brotli GSS-API HTTP2 HTTPS-proxy IDN IPv6 Kerberos L
 En general el archivo <em>.bashrc</em> lo encontraremos en <code>\home\usuario</code> si hacemos un <code>$ ls -al</code> nos debería aparecer este archivo <em>.bashrc</em></p>
 <h2>Instalando oh my bash</h2>
 <p>Para instalar <a href="https://github.com/ohmybash/oh-my-bash">oh my bash</a> debemos dirigirnos al siguiente enlace https://github.com/ohmybash/oh-my-bash en se encontraran dos formas de instalarlo. Para el caso de este tutorial optaremos por la vía de curl y para ello deberemos ejecutar la siguiente línea en la terminal:</p>
-<div class="highlight"><pre><span></span><code><span class="n">bash</span><span class="w"> </span><span class="o">-</span><span class="n">c</span><span class="w"> </span><span class="s2">&quot;$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)&quot;</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code>bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)&quot;
 </code></pre></div>
 
 <p>Una vez instalado ya deberían producirse cambios en nuestra terminal.</p>
@@ -110,15 +110,15 @@ $ ./install.sh
 </code></pre></div>
 
 <p>y se nos debería ver de la siguiente manera:
-<img alt="Terminal con tema agnoster" src="/images/terminal_Agnoster.png"></p>
+<img alt="Terminal con tema agnoster" src="./images/terminal_Agnoster.png"></p>
 <blockquote>
-<p><strong><em>nota</em></strong>: Si por alguna razón no se te ve de igual manera es probable que debas ajustar la fuente de tu terminal. En mi caso para que se pueda ver así utilice <em>Liberation mono</em> como se ve en la imagen. <img alt="Fuente de terminal" src="/content/images/fuente_terminal.png"></p>
+<p><strong><em>nota</em></strong>: Si por alguna razón no se te ve de igual manera es probable que debas ajustar la fuente de tu terminal. En mi caso para que se pueda ver así utilice <em>Liberation mono</em> como se ve en la imagen. <img alt="Fuente de terminal" src="./images/fuente_terminal.png"></p>
 </blockquote>
 <h2>Fuentes</h2>
 <p>Toda la información que puedes ver acá esta contenida en el siguiente video:</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qi5Vzw5AU9M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<h2>Cierre y palabras finales</h2>
+<h2>Palabras finales</h2>
 <p>A mi parecer instalar <a href="https://github.com/ohmybash/oh-my-bash">oh my bash</a> ha aumentado mi productividad ya que puedo obtener bastante información desde la terminal. Puedo ver con claridad en que rama estoy trabajando si es que estoy en un entorno virtual además de la ruta. Además de que se ve genial! Espero que te haya sido útil este tutorial y no te olvides de enviarme un <a href="https://twitter.com/Krlitos_Forever">tuit</a> diciendo <em>Hey Carlos! estoy en tu github pages!</em> Eso me haría muy feliz.</p>
             </div><!-- /.entry-content -->
 

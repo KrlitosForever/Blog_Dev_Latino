@@ -53,7 +53,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/mast
 ## Instalando tema agnoster
  Uno de mis temas favoritos es el de [agnoster](https://github.com/ohmybash/oh-my-bash/tree/master/themes/agnoster) el cual tiene una configuración adicional para que este tema funcione. para ellos nos vamos al repositorio y encontraremos las siguientes instrucciones:
 
-~~~
+~~~text
 $ git clone https://github.com/powerline/fonts.git fonts
 $ cd fonts
 $ ./install.sh
@@ -63,7 +63,7 @@ $ ./install.sh
 
 Una vez hayamos instalado [oh my bash](https://github.com/ohmybash/oh-my-bash) y hagamos instalado el tema de [agnoster](https://github.com/ohmybash/oh-my-bash/tree/master/themes/agnoster) para que surjan los cambios debemos modificar nuestro archivo *.bashrc* y editar la línea y dejarla de la siguiente forma `OSH_THME = "agnoster"`. Se guardan los cambios y en la terminal escribimos lo siguiente:
 
-~~~
+~~~text
 source .bashrc
 ~~~
 
@@ -79,9 +79,3 @@ Toda la información que puedes ver acá esta contenida en el siguiente video:
 
 ## Palabras finales
 A mi parecer instalar [oh my bash](https://github.com/ohmybash/oh-my-bash) ha aumentado mi productividad ya que puedo obtener bastante información desde la terminal. Puedo ver con claridad en que rama estoy trabajando si es que estoy en un entorno virtual además de la ruta. Además de que se ve genial! Espero que te haya sido útil este tutorial y no te olvides de enviarme un [tuit](https://twitter.com/Krlitos_Forever) diciendo *Hey Carlos! estoy en tu github pages!* Eso me haría muy feliz.
-
-
-## como mierda hago los cambios
-
-no tengo pico idea de como se acen los cambios
-pero acá estoy webiando

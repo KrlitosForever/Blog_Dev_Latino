@@ -51,7 +51,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/mast
  Una vez instalado ya deberían producirse cambios en nuestra terminal.
  
 ## **Instalando tema agnoster**
- Uno de mis temas favoritos es el de [agnoster](https://github.com/ohmybash/oh-my-bash/tree/master/themes/agnoster) el cual tiene una configuración adicional para que funcione. para ellos nos vamos al repositorio y encontraremos las siguientes instrucciones:
+ Uno de mis temas favoritos es el de [agnoster](https://github.com/ohmybash/oh-my-bash/tree/master/themes/agnoster) el cual tiene una configuración adicional para que funcione. Para ello nos vamos al repositorio y encontraremos las siguientes instrucciones:
 
 ~~~text
 $ git clone https://github.com/powerline/fonts.git fonts
@@ -78,4 +78,4 @@ Toda la información que puedes ver acá esta contenida en el siguiente video:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qi5Vzw5AU9M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## **Experiencia del autor**
-A mi parecer instalar [oh my bash](https://github.com/ohmybash/oh-my-bash) ha aumentado mi productividad ya que puedo obtener bastante información desde la terminal. Puedo ver con claridad en qué rama estoy trabajando si es que estoy en un entorno virtual además de la ruta. Por lo demás de que se ve genial! Espero que te haya sido útil este tutorial y no te olvides de enviarme un [tuit](https://twitter.com/Krlitos_Forever) diciendo *Hey Carlos! estoy en tu github pages!* Eso me haría muy feliz.
+A mi parecer instalar [oh my bash](https://github.com/ohmybash/oh-my-bash) ha aumentado mi productividad ya que puedo obtener bastante información desde la terminal. Puedo ver con claridad en qué rama estoy trabajando si es que estoy en un entorno virtual además de la ruta. Por lo se ve genial! Espero que te haya sido útil este tutorial y no te olvides de enviarme un [tuit](https://twitter.com/Krlitos_Forever) diciendo *Hey Carlos! estoy en tu github pages!* Eso me haría muy feliz.

@@ -33,7 +33,7 @@ TAGS = ('hello')
 
 GITHUB_URL = 'https://github.com/KrlitosForever'
 TWITTER_URL = 'https://twitter.com/Krlitos_Forever'
-LINKED_IN = 'https://www.linkedin.com/in/mg-carlos-carrasco/'
+FACEBOOK_URL = 'https://www.linkedin.com/in/mg-carlos-carrasco/'
 
 DEFAULT_PAGINATION = 10
 

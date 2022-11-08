@@ -1,5 +1,7 @@
 Title: Biografía del Autor
 Date: 2022-09-25 19:24
+Tags: Biografía
+Category: Biografía
 Authors: Carlos Carrasco Varas
 Summary: Biografía de Carlos Carrasco
 

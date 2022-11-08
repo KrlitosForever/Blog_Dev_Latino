@@ -1,6 +1,6 @@
 Title: ¿Cómo personalizar la terminal con oh my bash?
 Date: 2022-11-06 15:53
-Tags: linux, bash, terminal 
+Tags: Linux, Bash, Terminal 
 Category: Linux
 Authors: Carlos Carrasco Varas
 Summary: En este tutorial aprenderemos a como personalizar la terminal y obtener beneficios visuales, como por ejemplo ver en que rama se esta trabajando.

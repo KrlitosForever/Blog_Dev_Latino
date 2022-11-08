@@ -8,6 +8,3 @@ Esta página esta creada con todo el cariño que le tengo a mi profesión.
 Sin embargo el inglés siempre es una gran barrera para todos aquellos que no dominamos el idioma a la perfección.
 
 En general siempre la mejor información esta en Inglés más si es de carácter científico. Pero hay situaciones que el tiempo apremia y es necesario crear algo rápidamente y no perder tiempo buscando información confiable y reciente. Ese es el motivo del blog, generar información sencilla, rápida y de buena calidad.
-
-#post para que se produzca los cambios
-En algunas lados.

@@ -1,7 +1,5 @@
 Title: Biografía del Autor
 Date: 2022-09-25 19:24
-Tags: hello
-Category: hello
 Authors: Carlos Carrasco Varas
 Summary: Biografía de Carlos Carrasco
 

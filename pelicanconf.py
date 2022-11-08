@@ -31,6 +31,10 @@ SOCIAL = (('Twitter', 'https://twitter.com/Krlitos_Forever'),
 # Tags
 TAGS = ('hello')
 
+GITHUB_URL = 'https://github.com/KrlitosForever'
+TWITTER_URL = 'https://twitter.com/Krlitos_Forever'
+LINKED_IN = 'https://www.linkedin.com/in/mg-carlos-carrasco/'
+
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing

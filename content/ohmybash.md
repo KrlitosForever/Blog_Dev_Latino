@@ -1,6 +1,6 @@
 Title: ¿Cómo personalizar la terminal con oh my bash?
 Date: 2022-11-06 15:53
-Tags: linux bash terminal 
+Tags: linux, bash, terminal 
 Category: Linux
 Authors: Carlos Carrasco Varas
 Summary: En este tutorial aprenderemos a como personalizar la terminal y obtener beneficios visuales, como por ejemplo ver en que rama se esta trabajando.
@@ -27,12 +27,12 @@ Features: alt-svc AsynchDNS brotli GSS-API HTTP2 HTTPS-proxy IDN IPv6 Kerberos L
 Si no tuviésemos instalado alguno de ellos debemos instalarlos con el siguiente comando:
 
 Para instalar git:
-~~~
+~~~text
 $ apt-get install git
 ~~~
 
 Para instalar curl:
-~~~
+~~~text
 $ apt-get install curl
 ~~~
 
@@ -42,7 +42,7 @@ En general el archivo *.bashrc* lo encontraremos en `\home\usuario` si hacemos u
 
 ## **Instalando oh my bash**
 
-Para instalar [oh my bash](https://github.com/ohmybash/oh-my-bash) debemos dirigirnos al siguiente enlace https://github.com/ohmybash/oh-my-bash en donde se encontraran dos formas de instalarlo. Para el caso de este tutorial optaremos por la vía de curl ejecutando la siguiente línea en la terminal:
+Para instalar [oh my bash](https://github.com/ohmybash/oh-my-bash) debemos dirigirnos al siguiente enlace [https://github.com/ohmybash/oh-my-bash](https://github.com/ohmybash/oh-my-bash) en donde se encontraran dos formas de instalarlo. Para el caso de este tutorial optaremos por la vía de curl ejecutando la siguiente línea en la terminal:
 
 ~~~text
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
@@ -72,7 +72,7 @@ y se debería ver de la siguiente manera:
 
 > ***nota***: Si por alguna razón no se ve de igual manera es probable que debas ajustar la fuente de tu terminal. En mi caso para que se pueda ver así utilicé *Liberation mono* como se ve en la imagen. ![Fuente de terminal](./images/fuente_terminal.png)
 
-## **Fuentes**
+## **Fuente**
 Toda la información que puedes ver acá esta contenida en el siguiente video:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qi5Vzw5AU9M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
